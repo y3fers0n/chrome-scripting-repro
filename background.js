@@ -15,8 +15,6 @@ const ALLOWED_URLS = [
           matches: ALLOWED_URLS,
           runAt: "document_start",
           world: "MAIN",
-          allFrames: true,
-
           id: INPAGE_CHROME_SCRIPT_NAME,
         },
       ])
